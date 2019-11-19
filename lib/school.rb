@@ -4,8 +4,8 @@ class School
   attr_reader :roster
   ROSTER = {}
 
-  def initialize(roster)
-    @roster = roster
+  def initialize(name)
+    @name = name
   end
 
 end
