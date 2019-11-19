@@ -8,13 +8,9 @@ class School
   end
 
   def add_student (grade,name)
-    if roster[grade]== nil
          roster[grade] = []
          roster[grade] << name
-     else
-       #add students to exsisting grade
-     roster[grade] << name
-   end
+
   end
 
 end
